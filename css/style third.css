@@ -1,0 +1,63 @@
+body{
+    margin: 10px;
+    background-color: black;
+}
+.header{
+    margin-top: 10px;
+    color: white;
+    background: linear-gradient(to right, darkblue, lightblue);
+    height: 100px;
+    width: 1000px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 500px 200px;
+    grid-column-gap: 50px;
+}
+
+.sb{
+    height: 300px;
+    color: white;
+    background: linear-gradient(yellow, turquoise);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art{
+    height: 300px;
+    color: white;
+    background: linear-gradient(to right, purple, orange );
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ads{
+    height: 300px;
+    color: white;
+    background: linear-gradient(to right, darkgreen, lightgreen);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 10px;
+    color: white;
+    background: linear-gradient(to right, lightblue, plum);
+    height: 100px;
+    width: 1000px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
